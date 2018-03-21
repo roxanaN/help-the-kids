@@ -24,3 +24,4 @@ function [L, U, x] = Doolittle(A, b)
 	% Solve the upper triangular system
 	x = SST(U, y);
 endfunction
+

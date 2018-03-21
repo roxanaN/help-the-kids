@@ -26,3 +26,4 @@ function [L, U, x] = Crout(A, b)
 	% Solve the upper triangular system
 	x = SST(U, y);
 endfunction
+
